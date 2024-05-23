@@ -1,0 +1,21 @@
+.contact{
+  margin-top: 20px;
+}
+.contact-1{
+  text-align: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 45px;
+}
+.title{
+  color: orangered;
+  margin-top: 3rem;
+ 
+
+}
+input,
+textarea{
+  width: 80%;
+  font-size: 18px;
+
+}
