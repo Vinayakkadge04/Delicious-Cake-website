@@ -59,14 +59,35 @@
       <div style="justify-content: center;
       align-items: center; display: flex; flex-direction: column;" class="col-lg-6 col-sm-10">
 
-        <h4 class="title">Your Name</h4>
-        <input type="text" placeholder="Enter your name">
-        <h4 class="title">Your Email</h4>
-        <input type="text" placeholder="Enter your Email">
-        <h4 class="title">Subject</h4>
-        <input type="text" placeholder="Enter your subject">
-        <h4 class="title"> Your Message</h4>
-        <textarea name="" id="" placeholder="Your Message"></textarea>
+       <form style="font-size: 20px;">
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Your Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Subject</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Message</label>
+            <Textarea class="form-control"></Textarea>
+
+          </div>
+
+
+          <button type="submit" class="btn btn-danger submit-button">Submit</button>
+        </form>
 
       </div>
       <div style="justify-content: center;
